@@ -14,3 +14,4 @@ card=poke[0]+poke[1]+poke[2]+poke[3]+poke[4]
 print(card)
 
 # j=jjhaxbe
+print(poke+card)
