@@ -1,17 +1,15 @@
-# vol. 1.0
+# vol. 1.0 -无花色版本
 
 # 1-生成所有的组合到数据库
 # 2-判断所有的组合分值
-# 3-计算拿到13张牌，各类组合几率是
+# 3-计算拿到13张牌，各种组合的个数
 
-poke='1384'
-poke=sorted(poke)
-print(poke)
-poke=poke+['1']
-poke=sorted(poke)
-print(poke)
-card=poke[0]+poke[1]+poke[2]+poke[3]+poke[4]
-print(card)
+# 创建牌堆
+poke=list(range(1,14))
+print('牌堆：',poke)
 
-# j=jjhaxbe
-print(poke+card)
+# 用来计算的牌型
+card_origin=[3,7,8,8,9]
+print('原始牌型输入：',card_origin)
+
+# 判断是否有牛
